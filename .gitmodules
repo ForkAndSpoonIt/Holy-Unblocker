@@ -31,4 +31,4 @@
 	url = https://github.com/stewpidtnlvr/The-Bunker-Offline
 [submodule "src/Corrosion"]
 	path = src/Corrosion
-	url = https://github.com/titaniumnetwork-dev/Corrosion/
+	url = https://github.com/ForkAndSpoonIt/Corrosion.git/
