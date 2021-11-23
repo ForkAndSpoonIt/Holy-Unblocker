@@ -62,7 +62,7 @@ const text404 = fs.readFileSync(path.normalize(__dirname + '/views/404.html'), '
         "Random sentence two filled with certain keywords."
     ],
     splashtext = [
-        'Th<wbr>is is si<wbr>mp<wbr>ly a pu<wbr>bl<wbr>ic dem<wbr>o for Ho<wbr>ly Unb<wbr>locke<wbr>r. Certain functions may not work properly. Jo<wbr>in the <a id="tnlink" target="_blank">T<wbr>N Disc<wbr>ord</a> for official site lin<wbr>ks'
+   
     ],
     vegetables = ['Cooking1', 'Cooking2'],
     charRandom = ['&#173;', '&#8203;'];
