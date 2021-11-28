@@ -26,8 +26,7 @@ const text404 = fs.readFileSync(path.normalize(__dirname + '/views/404.html'), '
     siteIndex = 'index.html',
     pages = {
         /* Main */
-        'in': 'info.html',
-        'faq': 'faq.html',
+
         'j': 'hidden.html',
         's': 'pages/frame.html',
         'z': 'pages/proxnav/corrosion.html',
