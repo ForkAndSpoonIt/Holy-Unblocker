@@ -28,7 +28,7 @@ const text404 = fs.readFileSync(path.normalize(__dirname + '/views/404.html'), '
         /* Main */
 
         'j': 'hidden.html',
-        's': 'pages/frame.html',
+        's': 'pages/nav/bookmarklets.html',
         'z': 'pages/proxnav/corrosion.html',
         'c': 'pages/nav/credits.html',
         'x': 'pages/nav/bookmarklets.html',
