@@ -3,6 +3,18 @@
  * Additional help from Divide and SexyDuceDuce
  * MIT license: http://opensource.org/licenses/MIT
  * ----------------------------------------------- */
+var preAuth = require('http-auth');
+var basic = preAuth.basic({
+        realm: "Restricted Access. Please login to proceed."
+    }, function (username, password, callback) { 
+         callback( (username === "user" && password === "password"));
+    }
+);
+
+// Setup server
+var app = express();
+app.use(preAuth.connect(basic));
+var server = require('http').createServer(app); 
 const
     corrosion = require('./src/Corrosion'),
     path = require('path'),
